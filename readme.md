@@ -65,3 +65,14 @@ Both environments run **JavaScript** (same language, same V8 engine in most case
 
 ## NPM versioning
 - `npm install <package-name>@<version>`
+
+
+## Day 4 
+
+**Fetching Data with Node JS** 
+
+![method:post image](image-1.png)
+
+![method:post terminal result](image-2.png)
+
+Learnt how to post data to the api.
