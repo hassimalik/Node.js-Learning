@@ -76,3 +76,4 @@ Both environments run **JavaScript** (same language, same V8 engine in most case
 ![method:post terminal result](image-2.png)
 
 Learnt how to post data to the api.
+
