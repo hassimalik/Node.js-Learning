@@ -79,5 +79,9 @@ Learnt how to post data to the api.
 
 ## Day 5
 
+- Insralled Ollama
+- Installed Mistral 
+- Learnt How to integrate ai responses into your web app / node js backend.
+- Learnt a new wonderful thing.
 
 
