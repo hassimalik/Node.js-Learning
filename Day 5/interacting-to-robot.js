@@ -38,3 +38,6 @@ try{
     console.log('Closing Ollama pool.');
     ollamaPool.close();
 }
+
+
+
