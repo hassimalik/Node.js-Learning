@@ -3,6 +3,6 @@
   "name": "day-5",
   "version": "1.0.0",
   "dependencies": {
-    "undici": "^7.22.0"
+    "undici": "^7.24.6"
   }
 }

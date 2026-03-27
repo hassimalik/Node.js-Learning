@@ -47,3 +47,7 @@ Both environments run **JavaScript** (same language, same V8 engine in most case
 - Firefox has <span style="color:red;">SpiderMonkey</span> 
 - Safari -> <span style="color:red;">JavaScriptCore(Nitro)</span>
 - Edge -> <span style="color:red;">Chakra(old), Now -> `Chromium + V8`</span> 
+
+## Day 6 
+
+I made a first project file manager cli. It is an automation script that can read files list files and give data.
