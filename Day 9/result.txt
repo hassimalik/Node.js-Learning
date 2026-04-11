@@ -1,0 +1,44 @@
+Statistical profiling result from isolate-0000020BA60DF000-11596-v8.log, (4430 ticks, 0 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+   4300   97.1%          C:\Windows\SYSTEM32\ntdll.dll
+     24    0.5%          C:\nvm4w\nodejs\node.exe
+      1    0.0%          C:\Windows\System32\KERNELBASE.dll
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+    101    2.3%   96.2%  JS: *<anonymous> E:\Coding\Node.js\Day 9\server.js:15:17
+      1    0.0%    1.0%  JS: ~hasSymbols E:\Coding\Node.js\Day 9\node_modules\has-symbols\shams.js:5:37
+      1    0.0%    1.0%  Builtin: StoreIC_NoFeedback
+      1    0.0%    1.0%  Builtin: InterpreterEntryTrampoline
+      1    0.0%    1.0%  Builtin: BaselineOutOfLinePrologue
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+    105    2.4%  100.0%  JavaScript
+      0    0.0%    0.0%  C++
+      0    0.0%    0.0%  GC
+   4325   97.6%          Shared libraries
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+   4300   97.1%  C:\Windows\SYSTEM32\ntdll.dll
+
+    101    2.3%  JS: *<anonymous> E:\Coding\Node.js\Day 9\server.js:15:17
+    101  100.0%    JS: ~handleRequest E:\Coding\Node.js\Day 9\node_modules\router\lib\layer.js:142:56
+    101  100.0%      JS: ~next E:\Coding\Node.js\Day 9\node_modules\router\lib\route.js:119:17
+    101  100.0%        JS: ~dispatch E:\Coding\Node.js\Day 9\node_modules\router\lib\route.js:98:46
+    101  100.0%          JS: ~handle E:\Coding\Node.js\Day 9\node_modules\router\index.js:434:19
+    101  100.0%            JS: ~handleRequest E:\Coding\Node.js\Day 9\node_modules\router\lib\layer.js:142:56
+
